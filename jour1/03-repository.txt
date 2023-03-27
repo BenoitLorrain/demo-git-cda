@@ -1,0 +1,22 @@
+commencer à utiliser Git
+
+pour utiliser git sur un projet existant:
+
+
+git init
+=> Initialized empty Git repository in C:/Users/benoi/OneDrive/Bureau/git/.git/
+=> créer un dossier caché => .git dans le projet en cours
+=> ce dossier caché => nom spécial => repository (dépôt)
+=> ce dossier caché stocke les 4 questions suivies par Git
+
+=> version/qui/quel fichier/pourquoi/quand
+
+git config --global user.name "Prénom Nom"
+git config --global user.email "votre@email.fr"
+
+git config -l
+
+git config --global user.name "Benoît Lorrain"
+git config --global user.email "benoitlorrain@gmail.com"
+
+

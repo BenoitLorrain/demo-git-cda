@@ -1,0 +1,5 @@
+https://git-scm.com/downloads
+
+=> sur windows, plusieurs terminal
+cmd => inveite de commandes
+powershell => xxxx
