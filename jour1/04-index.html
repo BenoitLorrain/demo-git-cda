@@ -48,6 +48,10 @@
 
         git => outil histoire de ton code / correction de bug
     -->
+
+    <!--
+        git config --global gui.encoding utf-8
+    -->
     <table border="1">
         <thead>
             <tr>
@@ -108,6 +112,50 @@
          add et commit
          gitk pour confirmer que vous avez bien enregistré votre version dans le repository 
     -->
-    
+    <!--
+        4 commandes
+        git init            => crée repository
+        git add --all       => selectionner quel fichier on veut versionner
+        git commit -m "..." => action d'ajouter dans le repository
+        gitk                => outil tableau de bord
+    -->
+    <!--
+        Dans VS Code,
+        modifié le fichier 04-index.html              => M
+        créer un nouveau fichier 05-presentation.html => U
+        => état des documents par rapport au repository
+
+        git status
+        => connaitre l'ecart entre le reposetory et le projet
+
+        => fichier 04-index.html => Changes not staged
+                expliquer quelles commandes saisir pour changer leur état
+        => jour1/05-presentation.html => Untracked files
+
+        => changer son état de Untracked => Unstaged
+        git add jour1/05-presentation.html
+        git status
+
+        Untracked => UnstAged (il est selectionné et prêt pour être commité dans un repo)  
+        
+        Unstage => Staged (commité)
+
+        git commit -m "ajout du fichier de presentation"
+        A => rien (copié de votre fichier === copie incrémentale dans le repo)
+
+        Nouveau fichier
+        U => A => rien
+        Untracked
+            git add
+        UnstAged
+            git commit
+        staged => rien
+
+        dans le cas du fichier 04-index.html (déjà été enregistré dans le repository)
+            git status
+        Modified
+            git add jour1/04-index.html
+
+    -->
 </body>
 </html>
