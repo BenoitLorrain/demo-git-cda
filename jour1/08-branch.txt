@@ -1,0 +1,54 @@
+git log --oneline
+git reset <id log oneline>
+
+=> au lieu d'utiliser get reset
+// il est conseillé d'utiliser git branch
+
+
+//jusqu'à maintenant =>
+
+git add
+git commit
+
+ils sont réalisés sur la branche maon / master
+
+=> git branch
+
+=> pour l'instant vous avez travaillé sur la principale du projet (main/master)
+
+=>sur la branche main => créer une branch parrallèle
+donner un nom et se positionner dessus
+
+travailler et réaliser des add et des commits
+
+si on n'est pas content => sortir de la branch (
+    retour sur la branch principale) 
+    sans supprimer les travaux réalisés sur la branch
+
+sio on est satisfait => fusionner la branch sur laquelle on travaille avec la branch principale
+
+
+0**************
+vérifier que l'ensemble des fichiers soient commits sur la branch principale
+git add --all
+git commit -m "finaliser branch"
+git status => nothing to commit
+
+1**************
+git branch menu         => créer la branch menu
+git checkout menu       => permet de se déplacer dans la branch principale vers la branch menu
+2**************
+//travailler sur la branch
+git add
+git commit (sur cette branch)
+
+3a**************
+si satisfait
+git checkout master/main => permet de se déplacer sr la branch principale
+git merge menu           => fusionner la branch principale avec la branch menu
+git branch -d menu       => supprimer la branch menu
+
+3b**************
+si insatisfait
+git checkout master/main => se déplacer sur la branch principale
+git branch -D menu       => supprimer la branch menu sans la fusionner

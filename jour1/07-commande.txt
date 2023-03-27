@@ -1,0 +1,55 @@
+git log => la liste de tous les commit
+git status
+
+q => libérer le terminal
+
+git log --oneline => version + compact de git log
+
+
+git diff => connaitre les différences entre le repo et le projet pour tout les fichiers qui ne sont pas ajoutés (add)
+
+-----
+git diff --help
+git diff jour1/07-commande.txt
+-----
+git checkout
+=> permet de naviger entre les commits
+pour revenir dans le passé (dans les précédents commits)
+
+git log --oneline
+
+git checkout a0dc31f (venir dans le passé)
+attention le fait de revenir dans le passé permet de regarder
+MAIS vous ne pouvez pas modifier / add / commit 
+
+revenir maintenant 
+git checkout main 
+git checkout master
+
+-----
+git revert
+=> copier un ancien commit pour le mettre comme commit actuel
+
+git reset
+=> supprimer des commits entre maintenant et l'id du commit
+
+------
+git log --oneline
+
+git reset <id> --hard
+=>détruit/supprime les commits (impossible de les récuperer)
+=> à éviter d'utiliser
+
+git reflog => journal de toutes les opérations réalisées
+
+git branch recuperation <id>
+
+>supprimer // récupérer la suppression
+git reset <id> --hard
+git add --all
+git commit -m "sauvegarde"
+git reflog
+git branch recuperation <id reflog avant le reste>
+git merge
+
+
