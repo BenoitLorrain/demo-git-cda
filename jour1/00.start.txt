@@ -16,4 +16,6 @@ password : git
 > notes de cours vont être partagées sur GitHub (ça fait partie du cours)
 
 GIT du cours:
-https://github.com/webdevproformation/git-d-mars-2023
+https://github.com/webdevproformation/git-d-mars-2023 => fonctionne pas génial
+
+https://gitlab.com/w825/git-d-mars-2023 => nouveau dépôt
