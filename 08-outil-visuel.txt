@@ -9,9 +9,7 @@ cli => Commande Lin Interface
 => Avoir à écrire les commandes
 
 => Onglet source control
-
-git add --all
-
-git add jour2/01-exo.html
-
-git restore --staged
+------
+créer des branch facilement dans VSC
+=> git branch visual-studio
+=> git checkout visual-studio
