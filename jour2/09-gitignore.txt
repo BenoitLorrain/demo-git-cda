@@ -9,6 +9,3 @@ préciser la liste des fichiers/dossiers que l'on ne veut pas versionner
 
 
 le fichier .gitignore peut être créer n'importe où dans le projet, mais est placé en général à la racine du projet.
-
-
-

@@ -1,0 +1,19 @@
+remote => distant
+repository => dépôt
+
+=> stocker le dossier .git
+envoyer les fichiers sources + le dossier .git (repository local)
+
+=> site internet qui peut recevoir ce code => le mettre en forme
+
+git init => sur le site internet de mon projet...
+
+git remote add origin https://BenoitLorrain@bitbucket.org/benoitlorrain/demo.git
+=> connecter les 2 git en (local <==> remote)
+git remote 
+            add origin https://BenoitLorrain@bitbucket.org/benoitlorrain/demo.git
+
+            origin (alias de l'url) === https://BenoitLorrain@bitbucket.org/benoitlorrain/demo.git
+
+
+git push -u origin master
