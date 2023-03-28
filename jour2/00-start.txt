@@ -1,0 +1,2 @@
+dessiner des schémas dans VSC => 
+extension Draw.io Integration (fichier .drawio pour l'utiliser)

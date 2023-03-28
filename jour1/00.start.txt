@@ -18,4 +18,4 @@ password : git
 GIT du cours:
 https://github.com/webdevproformation/git-d-mars-2023 => fonctionne pas génial
 
-https://gitlab.com/w825/git-d-mars-2023 => nouveau dépôt
+https://bitbucket.org/formationwebdevpro/git-d-mars-2023/src/main/ => nouveau dépôt
