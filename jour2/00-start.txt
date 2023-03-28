@@ -1,2 +1,9 @@
 dessiner des schémas dans VSC => 
 extension Draw.io Integration (fichier .drawio pour l'utiliser)
+
+
+=> ne pas confondre
+git branch <nom>  => créer la branch <nom>
+git checkout <nom>  => déplacer sur la branch <nom>
+---------
+git checkout -b <nom>  => crée la branch "nom" et se déplace dessus
