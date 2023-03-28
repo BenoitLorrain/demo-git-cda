@@ -1,0 +1,5 @@
+git push local sur la branch en cours > distant la branch en cours
+
+git push --set-upstream origin explication + créer 
+
+git pull remote > local
