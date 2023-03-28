@@ -5,4 +5,4 @@ git branch --delete <nom> => supprimer une branch SI elle a été fusionnée ou 
 git branch -D <nom> => supprimer une branch fusionner ou non fusionne ou non résolu 
 git branch --delete --force <nom> => supprimer une branch fusionner ou non fusionne ou non résolu 
 
-git branch --help => man (manuel)
+git branch --help => man (manuel);

@@ -1,0 +1,17 @@
+exécuté toutes les commandes directement dans le terminal
+
+il existe de nombreux outils pour réaliser les comandes en faisant => click
+
+gui => Graphical User Interface
+cli => Commande Lin Interface
+
+=> directement dans Visual Code Studio vous pouvez réaliser toutes les commandes
+=> Avoir à écrire les commandes
+
+=> Onglet source control
+
+git add --all
+
+git add jour2/01-exo.html
+
+git restore --staged
