@@ -10,3 +10,11 @@ git clone => si vous voulez récupérer un projet distant intégralement
           => vous n'avez aucun fichier source en local
           => source (fichiers de code) ET .git
         
+=>manips à faire avant
+git add --all
+git commit -m "preparation"
+git push github main
+
+
+git fetch github main
+git merge github/main
