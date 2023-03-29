@@ -52,4 +52,9 @@ git reflog
 git branch recuperation <id reflog avant le reste>
 git merge
 
+-------
+
+git commit -a -m "message"
+
+=> git add --all + git commit -m "message"
 

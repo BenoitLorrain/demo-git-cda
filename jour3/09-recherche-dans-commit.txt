@@ -1,0 +1,13 @@
+git log --before="2023-2-1"
+git log --after="2023-2-1"
+git log --grep="recuperation"
+git log --author="author"
+git log -- README.md
+
+git log --author="benoit" --oneline
+git log --grep="jour" --oneline
+
+presentation de github
+
+git action => CI/CD
+=> push un projet sur un github => réaliser des tests // déployer sur un hébergement
