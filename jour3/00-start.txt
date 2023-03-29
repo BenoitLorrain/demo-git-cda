@@ -1,0 +1,23 @@
+en local
+git init
+git add --all
+git commit -m "présentation"
+
+=> aller sur internet => crée un repository
+=> formulaire à remplir
+
+en local
+git remote add origin <https://...url.git>
+git push -u origin <nom_branch>
+//prendre le travail en local et le push sur la branch <nom_branch>
+
+--------------------------
+
+travailler sur des fichiers
+Enregistrer
+git add --all
+git commit -m "explication"
+git push
+
+pas besoin de faire la commande git remote
+pas besoin de resaisir les identifiants
