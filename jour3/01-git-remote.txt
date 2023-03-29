@@ -44,3 +44,10 @@ git push (il va rajouter automatiquement) origin main
 
 si vous avez plusieurs remote
 git push github main
+
+------------------
+
+=> récupérer des informations depuis un projet distant
+git add --all
+git add -A
+git add *
