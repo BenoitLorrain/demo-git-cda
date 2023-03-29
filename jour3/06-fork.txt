@@ -1,0 +1,32 @@
+sur GitHub
+=>je trouve un projet intéressant et souhaite pouvoir l'utiliser
+=>git clone
+
+=> je constate des améliorations possibles et souhaite aider le créateur du projet
+=>même si le projet est public, je ne peux pas écrire
+=> possibilité de faire un fork => proposition d'ajouter du code
+
+=> fork
+=> copier le projet => dans mon espace (dans lequel j'ai tout mon droit)
+A fork is a copy of a repository.
+Forking a repository allows you to freely experiment with changes without affecting the original project.
+
+
+git clone https://github.com/PinochetPIN/test-fork.git
+git branch amelioration
+git checkout amelioration
+modifier un fichier ou deux
+git add --all 
+git commit -m "modification"
+git push --set-upstream origin suggestion
+
+https://github.com/PinochetPIN/test-fork.git
+
+=> sur guthub (dans mon projet => pull request)
+=> accepter dans son compte (et les modifications réalisées vont être merge dans le site internet sur github)
+
+cas pratique 
+pouvez vous me faire des pull request sur le dépôt public 
+suivant :
+
+https://github.com/webdevproformation/demo-github
