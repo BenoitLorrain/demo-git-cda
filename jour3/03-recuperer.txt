@@ -19,3 +19,15 @@ git push github main
 git fetch github main
 git merge github/main
 
+---------
+projet à 100% nouveau
+et je veux le récuperer
+
+git init
+depot et 
+
+git clone https://github.com/PinochetPIN/demo-git-cda.git
+=>importer/décompresser/créer un dossier demo-github sur le bureau
+
+git clone https://github.com/PinochetPIN/demo-git-cda.git toto
+=>importer/décompresser/créer un dossier demo-github sur le bureau
