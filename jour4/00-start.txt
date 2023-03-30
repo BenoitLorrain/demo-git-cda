@@ -1,0 +1,31 @@
+git add --all
+j'utilise plus git add .
+avant
+git add --all
+git add -A
+=> quelque soit le cas de figure  => tout est sélectionner
+
+git add * => * TOUT en SQL MAIS attention
+            en fonctionnant du shell dans lequel on utilise cette commande * peut omettre certain fichier
+            si cmd et un fichier qui commence par .env => git add *
+            si gitbash git add *
+git add .
+=> quelque soit le cas de figure => tout est sélectionner
+
+------------
+git add --all
+git commit -m "..."
+git commit -a -m "..." => OK uniquement pour les ficheirs M
+git commit --all -m "..."
+
+git commit -A -m "..." => non
+git commit -m -a  "..." => non
+------------
+github pages => permet de mettre en ligne des pages web statiques (html/css/js)
+
+=> branch spéciale => non n'importe quelle branch
+=> combien de temps ? => 2 mins
+=> il faut un fichier index .html à la racine d'une branch
+
+=> 1 créer un fichier index.html à la racine de mon projet sur main
+=> 2 push => dépot distant
