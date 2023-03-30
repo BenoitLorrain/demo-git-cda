@@ -1,0 +1,64 @@
+vous travaillez en équipe plus de 3 développeurs sur un projet
+
+très forte chance que deux personnes travaillent sur le même fichier sur la même ligne
+conflit au sens de git
+
+règle pour nommer les branchs
+
+2 dévs => principal main et master
+2 dévs => fonctionnalité benoit/page-contact // dev/page-cgv
+
+=> se mettre d'accord sur COMMENT on appelle les branch/comment on coupe les branchs ??
+git flow (macro commande)
+git flow => commande à saisir et mathode de travail
+git flow init (créer le dépôt .git caché - repository local mais en + principal main + questions en + nom des branch prefix des branch pour le projet)
+
+créer un dossier flow
+créer un index.html
+git init
+git flow init => enter sur toutes les options proposées
+créer renommer la branch principale
+créer une branch develop
+stocké en mémoire préfix pour de futures branchs
+checkout sur develop
+gitk --all
+
+=> je veux ajouter un menu => feature => 
+travail + add + commit
+branch + checkout => git flow feature start menu
+checkout develop + merge + branch -d feature/menu => git flow feature finish menu
+
+git flow feature start menu
+git flow feature finish menu
+
+-----------------------------------------------------------------
+exo1
+
+ajouter une nouvelle feature à votre projet => ajax
+ajouter un bouton dans la page web
+lorsque l'on clique dessus => requête ajax qui va appeller une API (retourne liste de pays)
+afficher la liste des pays sous le bouton
+
+=> clore la branche/ajax
+
+-----------------------------------------------------------------
+exo2
+
+dans le fichier index.html 
+
+ajouter un autre bouton sur lequel vous allez cliquer :
+
+appeler l'API 
+https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+
+retourne un tableau de cocktail à base de "margarita" (via ajax)
+
+afficher sous le bouton le code suivant :
+pour chaque cocktail du tableau récupéré : 
+<article>
+    <h2>Margarita</h2>
+    <img src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg" alt="">
+    <p>Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.</p>
+</article>
+
+utiliser jquery pour ajax et git flow pour la gestion des branch 
