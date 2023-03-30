@@ -1,0 +1,7 @@
+hotfix
+=>nom d'une branch pour effectuer une correction mineure directement depuis la branch principale (master) du projet
+
+correction rapide => si le bug est important bloquer le code qui ne marche pas
+
+git flow hotfix start menu
+git flow hotfix finish menu
